@@ -1,0 +1,17 @@
+Commands - 
+git init  = used for intialization of git repository
+git add -A  = used for adding the file to staging area
+git status  = used for receiving current status
+git commit -m “{{msg}}”  = used for for commiting the file to local repository
+git diff = used for seeing the changes made
+git reset = used for undoing the changes made in in staging area
+git log  = it shows list of all the commits made
+git checkout -- {{filename}} = to remove the certain commit by git itself
+git branch = used to create new branch
+git checkout {{branch name}} = to visit specific branch
+git merge {{branchname}} = to merge branches
+git branch -d {{branchname}}  = to remove specific branch
+git branch -h = to get the list of commands
+git clone {{repo url}} = to create a copy of an existing git repository
+git push --set-upstream {{remote name}} {{branch}} = to upload local repository content to remote repository
+
